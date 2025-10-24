@@ -1,7 +1,7 @@
 import socket
 from socket import *
 serverPort = 12000 
-serverIP = '192.168.15.21' 
+serverIP = '' 
 serverSocket = socket(AF_INET, SOCK_STREAM) #tcp welcome socket creation
 serverSocket.bind((serverIP, serverPort)) #bind to address and port
 serverSocket.listen(1) #server listens for tcp requests
